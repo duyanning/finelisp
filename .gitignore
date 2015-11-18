@@ -1,0 +1,13 @@
+.hg
+.hgignore
+Debug
+ipch
+*.sdf
+*.opensdf
+*.suo
+*.user
+debug
+*.gch
+*.depend
+*.layout
+*.a

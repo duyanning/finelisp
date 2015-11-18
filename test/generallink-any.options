@@ -1,0 +1,3 @@
+../finelib/debug/finelib.a
+-lgtest
+-lpthread

@@ -1,0 +1,8 @@
+(lp0
+.S'debug'
+p0
+.S'finelib.a'
+p0
+.S'lib'
+p0
+.

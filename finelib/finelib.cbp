@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="finelib" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="finelib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-std=c++0x" />
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="finelib" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="Callable.h" />
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="Env.cpp" />
+		<Unit filename="Env.h" />
+		<Unit filename="Err.cpp" />
+		<Unit filename="Err.h" />
+		<Unit filename="Expr.cpp" />
+		<Unit filename="Expr.h" />
+		<Unit filename="Func.cpp" />
+		<Unit filename="Func.h" />
+		<Unit filename="Int.cpp" />
+		<Unit filename="Int.h" />
+		<Unit filename="Macro.cpp" />
+		<Unit filename="Macro.h" />
+		<Unit filename="Num.cpp" />
+		<Unit filename="Num.h" />
+		<Unit filename="Parser.cpp" />
+		<Unit filename="Parser.h" />
+		<Unit filename="Quoted.cpp" />
+		<Unit filename="Quoted.h" />
+		<Unit filename="Scanner.cpp" />
+		<Unit filename="Scanner.h" />
+		<Unit filename="Single.cpp" />
+		<Unit filename="Single.h" />
+		<Unit filename="Str.cpp" />
+		<Unit filename="Str.h" />
+		<Unit filename="Sym.cpp" />
+		<Unit filename="Sym.h" />
+		<Unit filename="True.cpp" />
+		<Unit filename="True.h" />
+		<Unit filename="finelib.cpp" />
+		<Unit filename="finelib.h" />
+		<Unit filename="funtions.h" />
+		<Unit filename="primitive.cpp" />
+		<Unit filename="primitive.h" />
+		<Unit filename="std.h" />
+		<Unit filename="typesfwd.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project />
+				<doxyfile_build />
+				<doxyfile_warnings />
+				<doxyfile_output />
+				<doxyfile_dot />
+				<general />
+			</DoxyBlocks>
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

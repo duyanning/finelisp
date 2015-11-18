@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="test/test.cbp">
+			<Depends filename="finelib/finelib.cbp" />
+		</Project>
+		<Project filename="fine/fine.cbp">
+			<Depends filename="finelib/finelib.cbp" />
+		</Project>
+		<Project filename="finelib/finelib.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

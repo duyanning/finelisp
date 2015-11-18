@@ -1,0 +1,33 @@
+; -*- mode: lisp; -*-
+;(cdr 1 2)
+
+(+ 1 (if (> 3 2) (+ 'c 1) 'b) 2)
+
+(defun foo (x y) 
+  (if (> x y)
+      (+ x y)
+    (+ x y 1))
+  )
+(prin1 (foo 5 2))
+;;(foo x y)
+
+;(+ (if (> 2 1) 'a 'b) 1)
+
+;(symbol-function 'foo)
+;(symbol-function '+)
+;(symbol-function 'if)
+
+
+(defmacro inc (var)
+  (list 'setq var (list '1+ var)))
+
+(symbol-function 'inc)
+(functionp 'inc)
+(functionp (lambda () 3))
+(functionp 'foo)
+(symbolp t)
+(symbolp nil)
+(symbolp 1)
+(symbolp '())
+(symbolp ())
+(symbolp '(1 2))
